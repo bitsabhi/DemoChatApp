@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView 
+	android:id="@+id/title"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Press Connect to connect to server"
+    />   
+ 
+ <EditText
+ 	android:id="@+id/ip_add"
+ 	android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"   
+    android:text="10.0.0.20"
+ /> 
+ 
+ <EditText
+ 	android:id="@+id/port"
+ 	android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="8080"
+ />  
+<Button 
+	android:id="@+id/connect"
+	android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Connect"
+	
+/> 
+<EditText
+ 	android:id="@+id/data"
+ 	android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"    
+    android:hint="Input box"
+ />
+ 
+ <Button
+ 	android:id= "@+id/submit"
+ 	android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Send" 	 
+ />  
+ <Button
+ 	android:id= "@+id/exit"
+ 	android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Disconnect" 	 
+ /> 
+<TextView 
+	android:id="@+id/output"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+   
+    /> 
+
+</LinearLayout>
